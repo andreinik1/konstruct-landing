@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Forum&family=Noto+Sans:ital,wght@1,100&family=Open+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans:ital,wght@1,100&family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headsc {
+    font-family: 'Open Sans'; 
+    font-size: 1.2vw;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px 0px 15vw 0px; 
+}
+
+.ls {
+    letter-spacing: 0.5vw;
+}
+
+.nlf {
+font-family: 'Open Sans';
+font-size: 1.2vw !important;
+text-align: center;
+color: #48555B !important;
+}
+
+.fops {
+    font-family: 'Open Sans' !important;
+}
+
+
+.ours {
+
+font-size: 1.5vw;
+text-align: center;
+letter-spacing: 0.2vw;
+color: #48555B;
+}
+
+.shp {
+    width: 65vw;
+}
+
+.im {
+    height: 17vw;
+}
+
+.bb {
+    border: none;
+    outline: none;
+    background: #00A4E5;
+}
+
+.wdiv {
+    width: 20vw;
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.ours1 {
+    font-size: 1vw;
+    color: #48555B;
+}
+    
+.im2 {
+    margin-bottom: 1vw;
+    width: 4.3vw;
+}
+
+.t {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 1vw !important;
+}
+
+.bf {
+    width: 1.5vw;
+    height: 1.5vw;
+}
