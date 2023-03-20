@@ -127,7 +127,7 @@ color: #48555B;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     .wdiv {
         width: 80vw !important;
