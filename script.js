@@ -8,3 +8,6 @@ menuBtn.addEventListener('click', function(){
     menuBtn.classList.toggle('active');
 	menu.classList.toggle('active');
 })
+
+const ch = document.getElementById("chzx");
+console.log(ch);

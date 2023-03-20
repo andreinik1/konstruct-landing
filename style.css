@@ -80,31 +80,40 @@ color: #48555B;
 
 .menu-btn {
 	width: 2vw;
-	height: 2vw;
+    height: 2vw;
 	position: absolute;
     top: 5vw;
     right: 5vw;
 	z-index:2;
 	overflow: hidden;
 }
+
+.menu-btn:hover {
+    transform: scale(1.1);
+}
+
 .menu-btn span {
 	width: 2vw;
-	height: 2px;
+	height: 20%;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 45%;
+	left: 45%;
 	transform: translate(-50%, -50%);
 	background-color: #222222;
 	transition: all 0.5s;
 }
 .menu-btn span:nth-of-type(2) {
-	top: calc(50% - 5px);
+	top: calc(50% - 50%);
 }
 .menu-btn span:nth-of-type(3) {
-	top: calc(50% + 5px);
+	top: calc(50% + 50%);
 }
 
 @media (min-width: 600px)  {
+
+    #s1posdiv:first-child {
+        flex-direction: column !important;
+    }
 
     #slast1 {
         display: none !important;
@@ -129,8 +138,79 @@ color: #48555B;
 
 @media (max-width: 600px) {
 
+    #lastel {
+        font-size: 2vw !important;
+        padding: 1vw !important;
+    }
+
+    #zag {
+        margin-top: 18vw !important;
+    }
+
+    #vava {
+        width: 12vw !important;
+    }
+
+    #wtb {
+        font-size: 4.5vw !important;
+    }
+
+    .t, #slast1 p:nth-of-type(1) {
+        font-size: 1.7vw !important;
+    }
+
+    #ourcapa p:nth-of-type(1) {
+        font-size: 3vw !important;
+    }
+
+    #ourcapa p:nth-of-type(2) {
+        font-size: 2.3vw !important;
+        margin-bottom: 2vw !important;
+    }
+
+    .bb {
+        padding: 1vw;
+        font-size: 2.2vw !important;
+        margin-bottom: 2vw !important;
+    }
+
+    .im {
+        height: 40vw !important;
+    }
+
+    #ourstory {
+        font-size: 5vw !important;
+    }
+
+    #s1posdiv:first-child {
+        flex-direction: row !important;
+    }
+
+    #s1posdiv:first-child p {
+        margin-left: 3vw !important;
+        font-size: 1.5vw !important;
+    }
+
+    .nlf {
+        font-size: 5vw !important;
+    }
+
     .wdiv {
         width: 80vw !important;
+        margin-bottom: 3vw;
+        padding: 3vw;
+    }
+
+    .wdiv img {
+        width: 10vw;
+    }
+
+    .wdiv h3 {
+        font-size: 3vw;
+    }
+
+    .wdiv p {
+        font-size: 2.2vw !important;
     }
 
     body header p:nth-of-type(1) {
@@ -180,7 +260,7 @@ color: #48555B;
         width: 100%;
         height: 100%;
         padding: 15px;
-        background: #FFEFBA;
+        background: #54c1da;
         transform: translateX(-100%);
         transition: transform 0.5s; 
         flex-direction: column;
@@ -204,11 +284,6 @@ color: #48555B;
         top: 50%;
         transform: translate(-50%, 0%) rotate(-45deg); 
       }
-    
-    .wdiv {
-        width: 30vw;
-        margin-bottom: 3vw;
-    }
 
 }
 
