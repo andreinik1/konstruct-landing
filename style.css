@@ -104,7 +104,7 @@ color: #48555B;
 	top: calc(50% + 5px);
 }
 
-@media (min-width: 1000px)  {
+@media (min-width: 2000px)  {
 
     #slast1 {
         display: none !important;
@@ -127,7 +127,7 @@ color: #48555B;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 2000px) {
 
     .wdiv {
         width: 80vw !important;
